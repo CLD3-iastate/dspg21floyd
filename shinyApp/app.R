@@ -19,8 +19,7 @@ library(shinyjs)
 library(viridis)
 options(tigris_use_cache = TRUE)
 
-census_api_key("6f1a78212175773dd80d1a03bd303e8d181a6096", install = TRUE, overwrite = T)
-readRenviron("~/.Renviron")
+
 
 # data -----------------------------------------------------------
 cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
